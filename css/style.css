@@ -1,0 +1,41 @@
+body {
+  background-image: url("https://i.ytimg.com/vi/WqR6hMxZhK0/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+	background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.container-fluid {
+  position: absolute;
+  top: 35%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+#myBtn {
+  margin: 10px;
+}
+
+#myBtn:hover {
+  cursor: pointer;
+}
+
+#tweetSend {
+  font-size: 1.5em
+  display: none;
+  margin: 30px;
+}
+
+#tweetSend:hover {
+  cursor: pointer;
+}
+
